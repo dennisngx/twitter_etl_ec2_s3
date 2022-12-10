@@ -1,6 +1,6 @@
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
-from airflow.ultils.dates import days_ago
+from airflow.utils.dates import days_ago
 from datetime import datetime
 from datetime import timedelta
 from twitter_etl_function import twitter_etl
